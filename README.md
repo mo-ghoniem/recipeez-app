@@ -4,4 +4,4 @@ Android app that gets recipes for meals based on categories using java, APIs, MV
 MVP Pattern
 Retrofit
 API 
-RecyclerView
+RecyclerView.
