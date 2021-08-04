@@ -25,13 +25,13 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/populatText"
+                android:id="@+id/popularText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:fontFamily="sans-serif"
                 android:text="@string/app_name"
-                android:textSize="24sp"
+                android:textSize="22sp"
                 android:textStyle="bold" />
 
             <androidx.recyclerview.widget.RecyclerView
@@ -47,11 +47,10 @@
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:layout_marginBottom="10dp"
+                android:layout_margin="8dp"
                 android:fontFamily="sans-serif"
                 android:text="@string/meal_categories"
-                android:textSize="24sp"
+                android:textSize="22sp"
                 android:textStyle="bold" />
 
             <androidx.recyclerview.widget.RecyclerView

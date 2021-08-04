@@ -11,14 +11,14 @@
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="AppTheme.NoActionBar" parent="AppTheme">
+    <style name="AppTheme.ActionBar" parent="AppTheme">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
         <item name="android:statusBarColor" tools:targetApi="lollipop">@android:color/transparent</item>
         <item name="android:windowTranslucentStatus" tools:targetApi="kitkat">true</item>
     </style>
 
-    <style name="AppBarLayoutTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+    <style name="AppBarLayoutTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
         <item name="colorControlNormal">@color/colorPrimary</item>
         <item name="titleTextColor">@color/colorPrimary</item>
     </style>
